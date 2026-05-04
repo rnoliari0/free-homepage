@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>오리 소개 홈페이지</title>
+  <style>
+    body { margin:0; font-family:Arial,sans-serif; background:#f5fbff; color:#333; }
+    header { background:#ffcc66; padding:30px; text-align:center; }
+    header h1 { margin:0; font-size:2.2rem; }
+    nav { background:#fff3cd; padding:10px; text-align:center; }
+    nav a { margin:0 12px; text-decoration:none; color:#444; font-weight:bold; }
+    section { max-width:900px; margin:30px auto; padding:20px; background:white; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.08); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; }
+    .card { background:#eef8ff; padding:16px; border-radius:10px; }
+    footer { text-align:center; padding:20px; color:#666; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🦆 오리의 세계</h1>
+    <p>귀엽고 똑똑한 새, 오리를 소개합니다!</p>
+  </header>
+
+  <nav>
+    <a href="#about">오리란?</a>
+    <a href="#facts">특징</a>
+    <a href="#gallery">정보</a>
+  </nav>
+
+  <section id="about">
+    <h2>오리란?</h2>
+    <p>오리는 물가에서 자주 볼 수 있는 조류로, 넓적한 부리와 물갈퀴가 특징입니다. 헤엄을 잘 치며 다양한 환경에서 살아갑니다.</p>
+  </section>
+
+  <section id="facts">
+    <h2>오리의 특징</h2>
+    <div class="grid">
+      <div class="card"><h3>🌊 수영 실력</h3><p>물갈퀴 덕분에 빠르게 헤엄칠 수 있습니다.</p></div>
+      <div class="card"><h3>🪶 방수 깃털</h3><p>깃털에 기름 성분이 있어 물에 잘 젖지 않습니다.</p></div>
+      <div class="card"><h3>🔊 꽥꽥 소리</h3><p>의사소통을 위해 다양한 소리를 냅니다.</p></div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>재미있는 정보</h2>
+    <p>오리는 일부 종이 장거리 이동을 하며, 매우 사회적인 동물로 무리 생활을 즐깁니다.</p>
+  </section>
+
+  <footer>
+    <p>© 2026 오리 소개 홈페이지</p>
+  </footer>
+</body>
+</html>
